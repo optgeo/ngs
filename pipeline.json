@@ -1,0 +1,17 @@
+[
+  "01FD2541.las",
+  {
+    "type": "filters.reprojection",
+    "in_srs": "EPSG:6669",
+    "out_srs": "EPSG:3857"
+  },
+  {
+    "type": "filters.sample",
+    "radius": 0.5
+  },
+  {
+    "type": "writers.las",
+    "filename": "01FD2541.half.laz"
+  }
+]
+

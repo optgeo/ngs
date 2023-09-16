@@ -7,10 +7,11 @@
 
 まずは issues でアイディアを練っています。
 
-See: [Issues](https://github.com/optgeo/ngs)
+See: [Issues](https://github.com/optgeo/ngs/issues)
 
 # See also
 - [free-nagasaki-3dtiles](https://github.com/optgeo/free-nagasaki-3dtiles)
+- [free-nagasaki-maplibre](https://github.com/optgeo/free-nagasaki-maplibre)
 
 # About social preview image
 The social preview image is [Dutch and Chinese Ships in the Harbor at Nagasaki in Hizen Province by Utagawa Hiroshige II](https://www.metmuseum.org/art/collection/search/73422). 
