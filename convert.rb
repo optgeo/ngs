@@ -24,7 +24,7 @@ end
 def create_hash
   hash = Hash.new {|h, k| h[k] = 0}
   Dir.glob(GLOB) {|path|
-    token = File.basename(path, ".laz")[0..3]
+    token = File.basename(path, ".laz")[0..4]
     hash[token] += 1
   }
   hash
@@ -52,6 +52,8 @@ ipfs add --recursive --progress #{DST}
 end
 
 ## MAIN
+system "ulimit -n 65536"
+system "ulimit -n"
 system "rm -rv #{DST}"
 system "rm -rv #{DST_LAZ}; mkdir #{DST_LAZ}"
 hash = create_hash
