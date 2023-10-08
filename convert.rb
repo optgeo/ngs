@@ -68,7 +68,7 @@ sorted_keys.each {|token|
   #convert_part(token)
   merge_laz(token)
 }
-#merge
+merge
 convert
 upload
 
